@@ -3,6 +3,8 @@ install git
 // check git version
 git version --
 
+// uninstall ming - vim /etc/profile.d/git-prompt.sh
+
 // config
 
 git config --global user.name "fujaiel rahman"
@@ -35,3 +37,10 @@ after modification -
 // git commit
 // git log - to check previous commit
 
+to add all files for staging area
+// git add .
+// git commit -m "adding all commit"
+// git log
+we can go inside different commit 
+using hex code 
+// git checkout hexcode
