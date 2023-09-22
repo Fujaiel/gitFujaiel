@@ -1,0 +1,37 @@
+install git
+
+// check git version
+git version --
+
+// config
+
+git config --global user.name "fujaiel rahman"
+git config --global user.email "fujaielxx@gmail.com"
+git config --global --edit
+after edit
+esc + :wq + enter
+
+Directory
+//  pwd - to check current directory
+// cd /C/Users/Fujaielx/Desktop
+// cd git
+
+// ls - to check how many files are present in directory
+// ls -a : .git file
+// git status - to check modification that happened in files
+#############
+// git add index.html - it goes to staging area
+// git status
+// git commit -m "initial commit"
+// git log - to check all commits
+
+after adding file
+// git status
+// git add style.css
+// git commit -m  "commit style.css"
+
+after modification -
+// git add index.html
+// git commit
+// git log - to check previous commit
+
